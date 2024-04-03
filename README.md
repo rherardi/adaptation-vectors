@@ -4,7 +4,7 @@ Simple modeling tool to generate what if scenarios representing rate of change i
 
 ## Links
 
-- [Repo](https://github.com/rherardi/adaptation-vectors) "adaptation-vectors GitHub Repo")
+- [Repo](https://github.com/rherardi/adaptation-vectors) GitHub Repo)
 
 ## Purpose
 
