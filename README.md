@@ -4,7 +4,7 @@ Simple modeling tool to generate what if scenarios representing rate of change i
 
 ## Links
 
-- [Repo](https://github.com/rherardi/adaptation-vectors) (GitHub Repo)
+- [Repo](https://github.com/rherardi/adaptation-vectors "Adaptation Vectors GitHub")
 
 ## Purpose
 
@@ -40,7 +40,7 @@ Different input values result in greater or lesser proportions of the workforce 
 **Ron Herardian**
 
 - [Profile](https://github.com/rherardi "Ron Herardian")
-- [Email](mailto:ron@basilsecurity.com "Email")
+- [Email](mailto:6821925+rherardi@users.noreply.github.com "Email")
 
 ## 🤝 Support
 
