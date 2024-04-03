@@ -1,3 +1,5 @@
+"""Simple modeling tool to generate 3D graphs representing worker re-skill / up-skill time versus available time, e.g., due to disruptive technological change."""
+
 import argparse
 import numpy as np
 import matplotlib.pyplot as plt
