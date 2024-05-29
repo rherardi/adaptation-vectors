@@ -39,14 +39,14 @@ Different input values result in greater or lesser proportions of the workforce 
 - numpy
 - matplotlib
 
-# Running the Adaptation Vectors Jupyter Notebook
+# Adaptation Vectors Jupyter Notebook
 A Jupyter notebook, adaptation_vectors.ipynb, s included and contains the above Python program.
 
 ## Prerequisites
 Python 3 installed on your system.
 Jupyter Notebook installed (can be installed via pip: pip install notebook).
 
-# Steps to Run the Notebook
+## Steps to Run the Notebook
 Clone or download the repository containing the Jupyter notebook file (adaptation_vectors.ipynb).
 Change directories to the directory where the notebook file is located then launch Jupyter Notebook
 
