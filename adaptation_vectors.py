@@ -56,8 +56,8 @@ def create_chart(x, y, z, t1, t2, t3, t4, t5, p1):
 if __name__ == "__main__":
     # Parse commandline and emit messages on error, set default values if no input is provided
     parser = argparse.ArgumentParser(description="adaptation_vectors.py <total months> <max months to adapt>")
-    parser.add_argument("p1", nargs='?', type=int, default=60, help="Total months")
-    parser.add_argument("p2", nargs='?', type=int, default=60, help="Max months to adapt")
+    parser.add_argument("p1", nargs='?', type=int, default=36, help="Technology change months")
+    parser.add_argument("p2", nargs='?', type=int, default=36, help="Worker adaptation months")
     args = parser.parse_args()
 
     if args.p1 != int(args.p1) or args.p2 != int(args.p2):
@@ -69,8 +69,8 @@ if __name__ == "__main__":
     y5, y4, y3, y2, y1 = t1 / args.p1 * 100, t2 / args.p1 * 100, t3 / args.p1 * 100, t4 / args.p1 * 100, t5 / args.p1 * 100
 
     # Print input values to stdout (may be commandline parameters of default)
-    print("Time available (in months) for workers to adapt (default 60 months):", args.p1,)
-    print("Time required (in months) for workers to adapt (default 60 months):", args.p2,)
+    print("Technology change months (time available for workers to adapt):", args.p1,)
+    print("Worker adapatation months (time needed for workers to adapt):", args.p2,)
 
     x, y, z = generate_data()
     save_csv(x, y, z)

@@ -1,4 +1,4 @@
-# adaptation-vectors
+# Adaptation Vectors
 
 Simple modeling tool to generate what if scenarios representing rate of change in technology versus ability of workers to adapt to change
 
@@ -10,7 +10,7 @@ Simple modeling tool to generate what if scenarios representing rate of change i
 
 The purpose of the tool is to model potential displacements of workers due to technological changes affecting the workplace and job market.
 
-Time is required for workers to re-skill or upskill in order to remain employable. The magnitude and complexity of technological change influence how long workers require to re-skill or upskill. The timespan over which technological change occurs can range from (1) long enough to reasonably expect virtually all workers to be able to adapt, to (2) too short to reasonably expect any worker to be able to adapt, i.e., to remain employable. In teh former case, workers might simply adopt new technologies or learn to use new technological tools. In the latter case, jobs might be abruptly replaced as a result of new technologies.
+Time is required for workers to re-skill or upskill in order to remain employable. The magnitude and complexity of technological change influence how long workers require to re-skill or upskill. The timespan over which technological change occurs can range from (1) long enough to reasonably expect virtually all workers to be able to adapt, to (2) too short a time to reasonably expect any worker to be able to adapt, i.e., to have job skills relevant to the labor market and to remain employable. In the former case, workers simply adopt new technologies and learn to use new technological tools. In the latter case, jobs are abruptly replaced as a result of new technologies directly reducing the workforce.
 
 ## Available Commands
 
@@ -18,8 +18,8 @@ In the project directory, you can run:
 
 ### `adaptation_vectors.py <p1> <p2>`
 
-p1 = time (in months) available for workers to adapt
-p2 = time (in months) required for workers to adapt
+p1 = time (in months) in which disruptive technology change occurs (max time available for workers to adapt)
+p2 = time (in months) needed for workers to adapt to technology change, i.e., to up-skill or re-skill
 
 ### Description
 
@@ -35,6 +35,32 @@ Different input values result in greater or lesser proportions of the workforce 
 - numpy
 - matplotlib
 
+# Running the Adaptation Vectors Jupyter Notebook
+This Jupyter notebook, adaptation_vectors.ipynb, contains a Python program for generating 3D graphs representing worker re-skill / up-skill time versus available time. It uses matplotlib and numpy libraries for data visualization and manipulation.
+
+## Prerequisites
+Python 3 installed on your system.
+Jupyter Notebook installed (can be installed via pip: pip install notebook).
+
+# Steps to Run the Notebook
+Clone or download the repository containing the Jupyter notebook file (Adaptation_Vectors.ipynb).
+
+bash
+Copy code
+git clone <repository_url>
+
+Change directories to the directory where the notebook file is located then launch Jupyter Notebook
+
+bash
+Start jupyter server
+jupyter notebook <adaptation_vectors.ipynp>
+
+After running the above command, a browser window will open with the Jupyter Notebook interface. Navigate to the notebook file (adaptation_vectors.ipynb) click to select it and open it.
+
+Once the notebook is open, run each cell by selecting it and pressing Shift + Enter. Alternatively, you can use the Run button from the toolbar. When prompted, enter the command line parameters for the program. The notebook will provide fields for entering the total months and maximum months to adapt. You can either input values directly or leave them empty to use the default values.
+
+After executing all the cells, you will find a generated CSV file (adaptation_vectors.csv) containing the data and a PNG file (adaptation_vectors.png) containing the 3D graph in the same directory as the notebook.
+
 ## Author
 
 **Ron Herardian**
@@ -47,3 +73,5 @@ Different input values result in greater or lesser proportions of the workforce 
 Contributions, issues, and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
+
+
