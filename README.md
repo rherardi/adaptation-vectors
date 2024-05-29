@@ -8,9 +8,11 @@ Simple modeling tool to generate what if scenarios representing rate of change i
 
 ## Purpose
 
-The purpose of the tool is to model potential displacements of workers due to technological changes affecting the workplace and job market.
+The purpose of this tool is to model the impact of potentially disruptive technological changes affecting the labor market. Workers either adapt to and learn to use new technologies or are displaced.
 
-Time is required for workers to re-skill or upskill in order to remain employable. The magnitude and complexity of technological change influence how long workers require to re-skill or upskill. The timespan over which technological change occurs can range from (1) long enough to reasonably expect virtually all workers to be able to adapt, to (2) too short a time to reasonably expect any worker to be able to adapt, i.e., to have job skills relevant to the labor market and to remain employable. In the former case, workers simply adopt new technologies and learn to use new technological tools. In the latter case, jobs are abruptly replaced as a result of new technologies directly reducing the workforce.
+* Time is required for workers to up-skill or re-skill in order to remain relevant in the labor market, i.e., to remain employable and ultimately to remain in the workforce.
+* The magnitude and complexity of technological change influence how long workers require to up-skill or re-skill.
+* The timespan over which technological change occurs can range from (1) long enough to reasonably expect virtually all workers to adapt, to (2) too short a time to reasonably expect any worker adapt.
 
 ## Available Commands
 
