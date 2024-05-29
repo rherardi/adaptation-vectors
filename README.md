@@ -16,7 +16,9 @@ Time is required for workers to re-skill or upskill in order to remain employabl
 
 In the project directory, you can run:
 
-### `adaptation_vectors.py <p1> <p2>`
+```console
+python adaptation_vectors.py <p1> <p2>
+```
 
 p1 = time (in months) in which disruptive technology change occurs (max time available for workers to adapt)
 p2 = time (in months) needed for workers to adapt to technology change, i.e., to up-skill or re-skill
@@ -43,17 +45,12 @@ Python 3 installed on your system.
 Jupyter Notebook installed (can be installed via pip: pip install notebook).
 
 # Steps to Run the Notebook
-Clone or download the repository containing the Jupyter notebook file (Adaptation_Vectors.ipynb).
-
-bash
-Copy code
-git clone <repository_url>
-
+Clone or download the repository containing the Jupyter notebook file (adaptation_vectors.ipynb).
 Change directories to the directory where the notebook file is located then launch Jupyter Notebook
 
-bash
-Start jupyter server
+```console
 jupyter notebook <adaptation_vectors.ipynp>
+```
 
 After running the above command, a browser window will open with the Jupyter Notebook interface. Navigate to the notebook file (adaptation_vectors.ipynb) click to select it and open it.
 
@@ -73,5 +70,4 @@ After executing all the cells, you will find a generated CSV file (adaptation_ve
 Contributions, issues, and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
-
 
