@@ -25,7 +25,7 @@ python adaptation_vectors.py <p1> <p2>
 p1 = time (in months) in which disruptive technology change occurs (max time available for workers to adapt)
 p2 = time (in months) needed for workers to adapt to technology change, i.e., to up-skill or re-skill
 
-### Description
+### Technical Description
 
 The tool distributes randomly generated points in a 3D field, divides points into five 20% tranches based on Y values, producing 5 tranches of workers, and draws a cross-cutting line (demarcating the top 20% of workers by default).
 
@@ -40,7 +40,7 @@ Different input values result in greater or lesser proportions of the workforce 
 - matplotlib
 
 # Running the Adaptation Vectors Jupyter Notebook
-This Jupyter notebook, adaptation_vectors.ipynb, contains a Python program for generating 3D graphs representing worker re-skill / up-skill time versus available time. It uses matplotlib and numpy libraries for data visualization and manipulation.
+A Jupyter notebook, adaptation_vectors.ipynb, s included and contains the above Python program.
 
 ## Prerequisites
 Python 3 installed on your system.
@@ -54,9 +54,7 @@ Change directories to the directory where the notebook file is located then laun
 jupyter notebook <adaptation_vectors.ipynp>
 ```
 
-After running the above command, a browser window will open with the Jupyter Notebook interface. Navigate to the notebook file (adaptation_vectors.ipynb) click to select it and open it.
-
-Once the notebook is open, run each cell by selecting it and pressing Shift + Enter. Alternatively, you can use the Run button from the toolbar. When prompted, enter the command line parameters for the program. The notebook will provide fields for entering the total months and maximum months to adapt. You can either input values directly or leave them empty to use the default values.
+Once the notebook is open, run each cell by selecting it and pressing Shift + Enter. Alternatively, you can use the Run button from the toolbar. The notebook will provide fields for entering the total months and maximum months to adapt.
 
 After executing all the cells, you will find a generated CSV file (adaptation_vectors.csv) containing the data and a PNG file (adaptation_vectors.png) containing the 3D graph in the same directory as the notebook.
 
