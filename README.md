@@ -22,8 +22,8 @@ In the project directory, you can run:
 python adaptation_vectors.py <p1> <p2>
 ```
 
-p1 = time (in months) in which disruptive technology change occurs (max time available for workers to adapt)
-p2 = time (in months) needed for workers to adapt to technology change, i.e., to up-skill or re-skill
+- p1 = time (in months) in which disruptive technology change occurs (max time available for workers to adapt)
+- p2 = time (in months) needed for workers to adapt to technology change, i.e., to up-skill or re-skill
 
 ### Technical Description
 
