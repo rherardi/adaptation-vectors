@@ -12,7 +12,7 @@ The purpose of this tool is to model the impact of potentially disruptive techno
 
 * Time is required for workers to up-skill or re-skill in order to remain relevant in the labor market, i.e., to remain employable and ultimately to remain in the workforce.
 * The magnitude and complexity of technological change influence how long workers require to up-skill or re-skill.
-* The timespan over which technological change occurs can range from (1) long enough to reasonably expect virtually all workers to adapt, to (2) too short a time to reasonably expect any worker adapt.
+* The timespan over which technological change occurs can range from (1) long enough to reasonably expect virtually all workers to adapt, to (2) too short a time to reasonably expect any worker to adapt.
 
 ## Available Commands
 
