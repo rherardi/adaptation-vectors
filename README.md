@@ -27,7 +27,7 @@ python adaptation_vectors.py <p1> <p2>
 
 ### Technical Description
 
-The tool distributes randomly generated points in a 3D field, divides points into five 20% tranches based on Y values, producing 5 tranches of workers, and draws a cross-cutting line (demarcating the top 20% of workers by default).
+The tool distributes randomly generated points in a 3D field, divides points into five 20% tranches along the Y axis (percent of workforce), producing 5 tranches of workers, and draws a cross-cutting line (demarcating the top 20% of workers by default).
 
 The position of the cross-cutting line relative to the array of points varies depending on input values representing time (in months) over which technological change occurs (time available for workers to adapt) (p1) versus time needed for workers to adapt to change (p2). Both time available and time needed for workers to adapt are equal to 36 months by default.
 
