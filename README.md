@@ -1,6 +1,6 @@
 # Adaptation Vectors
 
-Simple modeling tool to generate what if scenarios representing rate of change in technology versus ability of workers to adapt to change
+Simple modeling tool to generate what if scenarios representing rate of change in technology versus ability of workers to adapt to change.
 
 ## Links
 
@@ -29,9 +29,9 @@ python adaptation_vectors.py <p1> <p2>
 
 The tool distributes randomly generated points in a 3D field, divides points into five 20% tranches based on Y values, producing 5 tranches of workers, and draws a cross-cutting line (demarcating the top 20% of workers by default).
 
-The position of the cross-cutting line relative to the array of points varies depending on input values representing time (in months) available for workers to adapt (p1) versus time required for workers to adapt (p2). Both time available and time required for workers to adapt are equal to 60 months by default.
+The position of the cross-cutting line relative to the array of points varies depending on input values representing time (in months) over which technological change occurs (time available for workers to adapt) (p1) versus time needed for workers to adapt to change (p2). Both time available and time needed for workers to adapt are equal to 36 months by default.
 
-Different input values result in greater or lesser proportions of the workforce falling above or below the line. The resulting scenarios (visualized as 3D graphs) represent the employability or unemployability of workers as a function of the timespan over which technology change occurs, which is a proxy for the rate of technological change.
+Different input values result in greater or lesser proportions of the workforce falling below the line. The resulting scenarios (visualized as 3D graphs) represent employability versus unemployability
 
 ## Built With
 
